@@ -1,8 +1,8 @@
-package org.p3tzata.util.common.impl;
+package org.p3tzata.common.impl;
 
-import org.p3tzata.util.common.pub.ILogicExp;
-import org.p3tzata.util.common.pub.ILogicOper;
-import org.p3tzata.util.common.pub.TrcStringFormatter;
+import org.p3tzata.common.pub.ILogicExp;
+import org.p3tzata.common.pub.ILogicOper;
+import org.p3tzata.common.pub.TrcStringFormatter;
 
 public class LogicExpImpl implements ILogicExp {
 

@@ -1,6 +1,6 @@
-package org.p3tzata.util.common.model;
+package org.p3tzata.common.model;
 
-import org.p3tzata.util.common.BlockType;
+import org.p3tzata.common.BlockType;
 
 public class BlockTypeEntity {
 

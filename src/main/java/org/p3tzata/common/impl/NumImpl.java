@@ -1,8 +1,8 @@
-package org.p3tzata.util.common.impl;
+package org.p3tzata.common.impl;
 
 
-import org.p3tzata.util.common.pub.IVariable;
-import org.p3tzata.util.common.pub.TrcStringFormatter;
+import org.p3tzata.common.pub.IVariable;
+import org.p3tzata.common.pub.TrcStringFormatter;
 
 public class NumImpl implements IVariable {
 

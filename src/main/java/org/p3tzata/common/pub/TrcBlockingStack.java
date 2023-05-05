@@ -1,7 +1,7 @@
-package org.p3tzata.util.common.pub;
+package org.p3tzata.common.pub;
 
-import org.p3tzata.util.common.BlockType;
-import org.p3tzata.util.common.model.BlockTypeEntity;
+import org.p3tzata.common.BlockType;
+import org.p3tzata.common.model.BlockTypeEntity;
 
 public interface TrcBlockingStack {
 

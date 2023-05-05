@@ -1,18 +1,19 @@
-package org.p3tzata.util;
+package org.p3tzata;
 
 
-import org.p3tzata.util.common.impl.LogicExpImpl;
-import org.p3tzata.util.common.impl.NumImpl;
-import org.p3tzata.util.common.impl.VariableImpl;
-import org.p3tzata.util.common.impl.logicOper.AndImpl;
-import org.p3tzata.util.common.impl.logicOper.EqImpl;
-import org.p3tzata.util.common.impl.logicOper.GtImpl;
-import org.p3tzata.util.common.impl.logicOper.LtImpl;
-import org.p3tzata.util.common.impl.logicOper.OrImpl;
-import org.p3tzata.util.common.pub.ILogicExp;
-import org.p3tzata.util.common.pub.ILogicOper;
-import org.p3tzata.util.common.pub.IVariable;
-import org.p3tzata.util.common.pub.TrcStringFormatter;
+import org.p3tzata.TrcHelper;
+import org.p3tzata.common.impl.LogicExpImpl;
+import org.p3tzata.common.impl.NumImpl;
+import org.p3tzata.common.impl.VariableImpl;
+import org.p3tzata.common.impl.logicOper.AndImpl;
+import org.p3tzata.common.impl.logicOper.EqImpl;
+import org.p3tzata.common.impl.logicOper.GtImpl;
+import org.p3tzata.common.impl.logicOper.LtImpl;
+import org.p3tzata.common.impl.logicOper.OrImpl;
+import org.p3tzata.common.pub.ILogicExp;
+import org.p3tzata.common.pub.ILogicOper;
+import org.p3tzata.common.pub.IVariable;
+import org.p3tzata.common.pub.TrcStringFormatter;
 
 public class TrcHelperFactory {
 

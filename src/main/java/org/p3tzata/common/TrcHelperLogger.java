@@ -1,4 +1,4 @@
-package org.p3tzata.util.common;
+package org.p3tzata.common;
 
 public interface TrcHelperLogger {
 

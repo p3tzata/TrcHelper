@@ -1,17 +1,17 @@
-package org.p3tzata.util;
+package org.p3tzata;
 
 
-import org.p3tzata.util.common.BlockType;
-import org.p3tzata.util.common.TrcHelperLogger;
-import org.p3tzata.util.common.impl.DirectoryStringFormatterImpl;
-import org.p3tzata.util.common.impl.DirectoryTrcHelperLoggerImp;
-import org.p3tzata.util.common.impl.TrcBlockingStackImp;
-import org.p3tzata.util.common.model.BlockTypeEntity;
-import org.p3tzata.util.common.pub.ILogicOper;
-import org.p3tzata.util.common.pub.IString;
-import org.p3tzata.util.common.pub.IVariable;
-import org.p3tzata.util.common.pub.TrcBlockingStack;
-import org.p3tzata.util.common.pub.TrcStringFormatter;
+import org.p3tzata.common.BlockType;
+import org.p3tzata.common.TrcHelperLogger;
+import org.p3tzata.common.impl.DirectoryStringFormatterImpl;
+import org.p3tzata.common.impl.DirectoryTrcHelperLoggerImp;
+import org.p3tzata.common.impl.TrcBlockingStackImp;
+import org.p3tzata.common.model.BlockTypeEntity;
+import org.p3tzata.common.pub.ILogicOper;
+import org.p3tzata.common.pub.IString;
+import org.p3tzata.common.pub.IVariable;
+import org.p3tzata.common.pub.TrcBlockingStack;
+import org.p3tzata.common.pub.TrcStringFormatter;
 
 public class TrcHelper {
 

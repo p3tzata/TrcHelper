@@ -1,9 +1,9 @@
-package org.p3tzata.util.common.impl;
+package org.p3tzata.common.impl;
 
 import java.util.Stack;
-import org.p3tzata.util.common.BlockType;
-import org.p3tzata.util.common.model.BlockTypeEntity;
-import org.p3tzata.util.common.pub.TrcBlockingStack;
+import org.p3tzata.common.BlockType;
+import org.p3tzata.common.model.BlockTypeEntity;
+import org.p3tzata.common.pub.TrcBlockingStack;
 
 public class TrcBlockingStackImp implements TrcBlockingStack {
   private static Stack<BlockTypeEntity> stackBlockType;

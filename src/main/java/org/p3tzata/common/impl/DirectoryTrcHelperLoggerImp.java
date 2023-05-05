@@ -1,4 +1,4 @@
-package org.p3tzata.util.common.impl;
+package org.p3tzata.common.impl;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Comparator;
 import java.util.stream.Stream;
-import org.p3tzata.util.common.TrcHelperLogger;
+import org.p3tzata.common.TrcHelperLogger;
 
 public class DirectoryTrcHelperLoggerImp implements TrcHelperLogger {
 

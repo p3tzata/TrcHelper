@@ -1,21 +1,24 @@
 package org.p3tzata;
 
-import org.p3tzata.util.TrcHelper;
-import org.p3tzata.util.TrcHelperFactory;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-public class Main {
+public class RecursionTest {
 
-  public static void main(String[] args) {
+  @BeforeEach
+  void beforeEach() {
 
-    System.out.println("Hello world!");
     TrcHelper.clearCurrent();
+  }
+
+  @Test
+  void main() {
     TrcHelper.CALL("main", TrcHelperFactory._var("ss", 4), TrcHelperFactory._var("user", "Pepi"));
     factorial(3);
 
     TrcHelper.RETURN();
-
-
   }
+
   static int factorial(int n) {
 
     TrcHelper.CALL("factorial", TrcHelperFactory._var("n",n));
@@ -32,4 +35,5 @@ public class Main {
     }
 
   }
+
 }
