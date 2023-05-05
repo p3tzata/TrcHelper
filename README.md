@@ -1,4 +1,4 @@
-# TrcHelper
+# TrcHelper - help to trace your code as directories and files structure output. 
 
 ## Add to your project<br>
 1. settings.gradle
