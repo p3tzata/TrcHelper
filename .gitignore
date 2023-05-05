@@ -1,6 +1,8 @@
 .DS_Store
+.gradle/
 HELP.md
 target/
+trcDebugHelper/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
